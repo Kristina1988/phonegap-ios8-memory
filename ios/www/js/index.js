@@ -50,11 +50,9 @@ var app = {
         this.runNumber = 0;
         
         var me = this;
-        receivedElement.onclick = function() {
             setInterval(function() {
                 me.getData();
             }, 5);
-        }
     },
 
     getData : function() {
@@ -62,10 +60,10 @@ var app = {
         var me = this;
         cordova.exec(
             function callback(data) {
-//                console.log(data);
                 me.receivedElement.innerHTML = ++me.runNumber;
             },
             function errorHandler(err) {
+            
                 console.log('testFn error');
             },
             'APlugin',

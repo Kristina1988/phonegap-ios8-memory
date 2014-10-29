@@ -48,7 +48,7 @@ Here's the testFn method:
 }
 ```
 
-index.js is modified to register a click handler of the "device is ready" div found in the hello world phonegap application.  The click handler is going to initiate a 5ms `setInterval()` loop to execute `this.getData()`. `this.getData()`, is what is responsible for executing `testFn` in the above plugin and will simply update the "device is ready" div, displaying the execution number.
+index.js is modified to register a click handler of the "device is ready" div found in the hello world phonegap application.  The click handler is going to initiate a 500ms `setInterval()` loop to execute `this.getData()`. `this.getData()`, is what is responsible for executing `testFn` in the above plugin and will simply update the "device is ready" div, displaying the execution number.
 
 ```
     receivedEvent: function(id) {
@@ -68,7 +68,7 @@ index.js is modified to register a click handler of the "device is ready" div fo
         receivedElement.onclick = function() {
             setInterval(function() {
                 me.getData();
-            }, 5);
+            }, 500);
         }
     },
 
