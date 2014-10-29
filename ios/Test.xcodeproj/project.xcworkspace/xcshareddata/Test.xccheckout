@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4395A928-065D-49DC-A85C-AB2F2316DE78</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D74E3B7459254F6AFBE2FB243355D04CC396D974</key>
+		<string>https://github.com/Kristina1988/phonegap-ios8-memory.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/Test.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D74E3B7459254F6AFBE2FB243355D04CC396D974</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Kristina1988/phonegap-ios8-memory.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D74E3B7459254F6AFBE2FB243355D04CC396D974</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D74E3B7459254F6AFBE2FB243355D04CC396D974</string>
+			<key>IDESourceControlWCCName</key>
+			<string>phonegap-ios8-memory</string>
+		</dict>
+	</array>
+</dict>
+</plist>
