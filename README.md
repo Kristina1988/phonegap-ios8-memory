@@ -8,7 +8,6 @@ To see for yourself:
 - Open <your project dir>/Test/Platforms/ios/Test.xcodeproj in xcode
 - Select an IOS 8 sim
 - Run the project
-- Click the "device is ready" element
 - Watch the device profiler in XCode 
 
 The test:
