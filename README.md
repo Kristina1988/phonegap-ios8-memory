@@ -1,17 +1,17 @@
-A simple app to test memory accretion with iOS8.
+A simple app to test memory accretion with iOS 8.1
 
-This application simply uses a pretty vanilla PhoneGap application that demonstrates that either PhoneGap for iOS8 or the iOS8 JavaScript VM has problems with the JavaScript to ObjectiveC communication.  *NOTE*:This is not a problem with iOS5,6 or 7.
+This application simply uses a PhoneGap application that demonstrates that either PhoneGap for iOS8.1 or the iOS8.1 JavaScript VM has problems with the JavaScript to ObjectiveC communication.  
+*NOTE*: This is not a problem with iOS 7.1.
 
-Image: http://bit.ly/1DIM944
 To see for yourself:
 - Clone this project (in a mac, obviously).
 - Open <your project dir>/Test/Platforms/ios/Test.xcodeproj in xcode
-- Select an IOS 8 sim
+- Select an IOS 8.1 simulator or device
 - Run the project
-- Watch the device profiler in XCode 
+- Watch the memory report in XCode (debug navigator) 
 
 The test:
-Below is the ObjectiveC code that contains a methoed named `testFn`. `testFn` is called by a modified copy of Cordova's index.js and generates 100000 random integers and stuffs them to an array to be returned by the calling plugin method execution request inside of index.js.
+Below is the ObjectiveC code that contains a methoed named `testFn`. `testFn` is called by a modified copy of Cordova's index.js and generates 100000 random integers and adds them to an array to be returned by the calling plugin method execution request inside of index.js.
 
 Here's the testFn method:
 
@@ -47,7 +47,7 @@ Here's the testFn method:
 }
 ```
 
-index.js is modified to register a click handler of the "device is ready" div found in the hello world phonegap application.  The click handler is going to initiate a 500ms `setInterval()` loop to execute `this.getData()`. `this.getData()`, is what is responsible for executing `testFn` in the above plugin and will simply update the "device is ready" div, displaying the execution number.
+index.js is modified to register a click handler of the "device is ready" div found in the hello world phonegap application.  When the app is started `this.getData()` is executed every 5ms. `this.getData()`, is what is responsible for executing `testFn` in the above plugin and will simply update the "device is ready" div, displaying the execution number.
 
 ```
     receivedEvent: function(id) {
