@@ -1,14 +1,6 @@
-//
-//
-//  ModPlyr
-//
-//  Created by Jesus Garcia on 6/28/13.
-//
-//
+#import "APlugin.h"
 
-#import "ModPlyr.h"
-
-@implementation ModPlyr
+@implementation APlugin
 
 
 - (void) testFn:(CDVInvokedUrlCommand*)command {

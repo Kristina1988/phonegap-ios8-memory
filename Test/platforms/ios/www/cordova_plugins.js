@@ -1,17 +1,17 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/org.moduscreate.modplyr/src/ios/ModPlyr.js",
-        "id": "org.moduscreate.modplyr.ModPlyr",
+        "file": "plugins/APlugin.js",
+        "id": "APlugin",
         "clobbers": [
-            "ModPlyr"
+            "APlugin"
         ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.moduscreate.modplyr": "0.0.1"
+    "APlugin": "0.0.1"
 }
 // BOTTOM OF METADATA
 });

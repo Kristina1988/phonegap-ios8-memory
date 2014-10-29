@@ -68,7 +68,7 @@ var app = {
             function errorHandler(err) {
                 console.log('testFn error');
             },
-            'ModPlyr',
+            'APlugin',
             'testFn',
             []
         );

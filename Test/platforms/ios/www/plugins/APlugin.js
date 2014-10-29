@@ -1,10 +1,10 @@
-cordova.define("org.moduscreate.modplyr.ModPlyr", function(require, exports, module) { 
+cordova.define("APlugin", function(require, exports, module) {
 var argscheck = require('cordova/argscheck'),
     utils = require('cordova/utils'),
     exec = require('cordova/exec');
 
 
-var ModPlyr = {
+var APlugin = {
     test : function() {
         console.log('JAVA SCRIPT TEST');
         
@@ -14,7 +14,7 @@ var ModPlyr = {
             console.log(data = JSON.parse(data));
 
             cordova.exec(function() { 
-            }, null, 'ModPlyr', 'cdvLoadMod', [data[0].path]);
+            }, null, 'APlugin', 'cdvLoadMod', [data[0].path]);
         }
 
 
@@ -23,14 +23,14 @@ var ModPlyr = {
             console.log('dir success')
             console.log(data = JSON.parse(data));
 
-            cordova.exec(fileCallback, null, 'ModPlyr', 'cdvGetModFiles', [data[0].path]);
+            cordova.exec(fileCallback, null, 'APlugin', 'cdvGetModFiles', [data[0].path]);
         }
 
-        cordova.exec(dirCallback, null, 'ModPlyr', 'cdvGetModPaths', []);
+        cordova.exec(dirCallback, null, 'APlugin', 'cdvGetModPaths', []);
     }
 };
 
 
-module.exports = ModPlyr;
+module.exports = APlugin;
 
 });

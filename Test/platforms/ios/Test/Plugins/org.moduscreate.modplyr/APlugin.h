@@ -2,6 +2,6 @@
 #import <Cordova/CDV.h>
 
 
-@interface ModPlyr : CDVPlugin 
+@interface APlugin : CDVPlugin
 
 @end

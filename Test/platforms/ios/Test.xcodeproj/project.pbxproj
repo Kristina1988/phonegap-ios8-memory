@@ -37,7 +37,7 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
-		CB3CFE95B5334AF29A15898D /* ModPlyr.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FDAFAA2C9847FDAE6A4A74 /* ModPlyr.m */; };
+		CB3CFE95B5334AF29A15898D /* APlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FDAFAA2C9847FDAE6A4A74 /* APlugin.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11866A72F9124A4EA7308FA2 /* ModPlyr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModPlyr.h; path = org.moduscreate.modplyr/ModPlyr.h; sourceTree = "<group>"; };
+		11866A72F9124A4EA7308FA2 /* APlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APlugin.h; path = org.moduscreate.modplyr/APlugin.h; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +99,7 @@
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Test-Info.plist"; path = "../Test-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		D9FDAFAA2C9847FDAE6A4A74 /* ModPlyr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModPlyr.m; path = org.moduscreate.modplyr/ModPlyr.m; sourceTree = "<group>"; };
+		D9FDAFAA2C9847FDAE6A4A74 /* APlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APlugin.m; path = org.moduscreate.modplyr/APlugin.m; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = Test/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,8 +217,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				D9FDAFAA2C9847FDAE6A4A74 /* ModPlyr.m */,
-				11866A72F9124A4EA7308FA2 /* ModPlyr.h */,
+				D9FDAFAA2C9847FDAE6A4A74 /* APlugin.m */,
+				11866A72F9124A4EA7308FA2 /* APlugin.h */,
 			);
 			name = Plugins;
 			path = Test/Plugins;
@@ -404,7 +404,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				CB3CFE95B5334AF29A15898D /* ModPlyr.m in Sources */,
+				CB3CFE95B5334AF29A15898D /* APlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
