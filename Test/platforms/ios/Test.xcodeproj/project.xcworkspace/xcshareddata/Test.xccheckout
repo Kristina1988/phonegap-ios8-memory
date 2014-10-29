@@ -12,20 +12,24 @@
 	<dict>
 		<key>8581FCDBE2740504A94C19E87284C956DF7A5DAE</key>
 		<string>github.com:ModusCreateOrg/ModusModPlayer.git</string>
+		<key>D74E3B7459254F6AFBE2FB243355D04CC396D974</key>
+		<string>https://github.com/Kristina1988/phonegap-ios8-memory.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Test/platforms/ios/Test.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8581FCDBE2740504A94C19E87284C956DF7A5DAE</key>
+		<string>../../../../../../ModusModPlayer</string>
+		<key>D74E3B7459254F6AFBE2FB243355D04CC396D974</key>
 		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:ModusCreateOrg/ModusModPlayer.git</string>
+	<string>https://github.com/Kristina1988/phonegap-ios8-memory.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8581FCDBE2740504A94C19E87284C956DF7A5DAE</string>
+	<string>D74E3B7459254F6AFBE2FB243355D04CC396D974</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>8581FCDBE2740504A94C19E87284C956DF7A5DAE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ModusModPlayer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D74E3B7459254F6AFBE2FB243355D04CC396D974</string>
+			<key>IDESourceControlWCCName</key>
+			<string>phonegap-ios8-memory</string>
 		</dict>
 	</array>
 </dict>

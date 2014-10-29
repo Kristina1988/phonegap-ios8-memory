@@ -18,7 +18,7 @@
     int randomNum;
     NSNumber *num;
     
-    for (int i=0; i < 1000; i++) {
+    for (int i=0; i < 100000; i++) {
         randomNum = arc4random_uniform(74);;
         num       = [[NSNumber alloc] initWithInt:randomNum];
         

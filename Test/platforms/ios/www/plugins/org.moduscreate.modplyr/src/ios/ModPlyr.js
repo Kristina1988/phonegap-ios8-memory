@@ -14,7 +14,6 @@ var ModPlyr = {
             console.log(data = JSON.parse(data));
 
             cordova.exec(function() { 
-                // cordova.exec(null,null,'ModPlyr','cdvPlayMod');
             }, null, 'ModPlyr', 'cdvLoadMod', [data[0].path]);
         }
 

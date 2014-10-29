@@ -51,15 +51,14 @@ var app = {
         
         var me = this;
         receivedElement.onclick = function() {
-            console.log('startModPlayerUpdateLoop();');
             setInterval(function() {
-                me.getSongStats();
-            }, 10);
+                me.getData();
+            }, 5);
         }
     },
 
-    getSongStats : function() {
-        console.log('getSongStats')
+    getData : function() {
+        console.log('getSomeData')
         var me = this;
         cordova.exec(
             function callback(data) {
