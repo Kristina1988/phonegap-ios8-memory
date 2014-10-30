@@ -64,15 +64,13 @@ index.js is modified to register a click handler of the "device is ready" div fo
         this.runNumber = 0;
         
         var me = this;
-        receivedElement.onclick = function() {
-            setInterval(function() {
-                me.getData();
-            }, 500);
-        }
+        setInterval(function() {
+            me.getData();
+        }, 5);
     },
 
     getData : function() {
-        console.log('getSomeData')
+        console.log('getSomeData');
         var me = this;
         cordova.exec(
             function callback(data) {
