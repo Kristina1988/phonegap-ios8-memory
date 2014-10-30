@@ -24,7 +24,7 @@ Here's the testFn method:
     NSNumber *num;
     
     for (int i=0; i < 100000; i++) {
-        randomNum = arc4random_uniform(74);;
+        randomNum = arc4random_uniform(74);
         num       = [[NSNumber alloc] initWithInt:randomNum];
         
         [array addObject:num];
